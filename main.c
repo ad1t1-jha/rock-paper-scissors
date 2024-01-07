@@ -24,7 +24,7 @@ int main()
     char result;
 
     srand(time(NULL));
-    n = rand() % 100;
+    n = rand() % 99;
 
     // comp is rock
     if (n <= 33){
